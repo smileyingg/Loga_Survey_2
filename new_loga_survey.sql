@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jul 11, 2019 at 08:06 AM
+-- Generation Time: Jul 17, 2019 at 08:42 AM
 -- Server version: 5.7.26
 -- PHP Version: 7.2.18
 
@@ -35,7 +35,16 @@ CREATE TABLE IF NOT EXISTS `q7` (
   `q7_detail` varchar(200) NOT NULL,
   `q7_text` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `q7`
+--
+
+INSERT INTO `q7` (`id`, `userTime`, `q7_detail`, `q7_text`) VALUES
+(1, '2019-07-17 10:46:17', 'เทคโนโลยี แอปพลิเคชั่นที่เหมาะสำหรับร้านเล็บ', ''),
+(2, '2019-07-17 15:40:26', 'เทคโนโลยี แอปพลิเคชั่นที่เหมาะสำหรับร้านเล็บ', ''),
+(3, '2019-07-17 15:40:26', 'Loga Workshop การใช้งานแอปLogaสำหรับร้านเล็บ', '');
 
 -- --------------------------------------------------------
 
@@ -60,6 +69,8 @@ CREATE TABLE IF NOT EXISTS `survey_form` (
   `q41` int(11) NOT NULL,
   `q42` int(11) NOT NULL,
   `q43` int(11) NOT NULL,
+  `q44` int(11) NOT NULL,
+  `q45` int(11) NOT NULL,
   `q5` varchar(100) NOT NULL,
   `q6` varchar(100) NOT NULL,
   `q8` text NOT NULL,
@@ -69,7 +80,7 @@ CREATE TABLE IF NOT EXISTS `survey_form` (
   `device` varchar(100) NOT NULL,
   `agent` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

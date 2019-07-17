@@ -868,6 +868,124 @@
                                     </div>
                                 </div>
 
+                                <!-- 4.4 -->
+                                <div class="row">
+                                    <div class="col s1">
+                                        <div class="h-form-label m-t-10">
+                                        </div>
+                                    </div>
+                                    <div class="col s1">
+                                        <div class="h-form-label m-t-10">
+                                            <label for="">4.4</label>
+                                        </div>
+                                    </div>
+                                    <div class="col s4">
+                                        <div class="h-form-label m-t-10">
+                                            <label id="">ความสะดวกในการลงทะเบียนเข้าร่วมงาน (ผ่าน Application)</label>
+                                        </div>
+                                    </div>
+                                    <div class="input-field col s1">
+                                        <div class="h-form-label" style="justify-content: center;">
+                                            <label>
+                                                <input class="with-gap" name="q44" type="radio" value="5" required />
+                                                <span for=""></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="input-field col s1">
+                                        <div class="h-form-label" style="justify-content: center;">
+                                            <label>
+                                                <input class="with-gap" name="q44" type="radio" value="4" required />
+                                                <span for=""></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="input-field col s1">
+                                        <div class="h-form-label" style="justify-content: center;">
+                                            <label>
+                                                <input class="with-gap" name="q44" type="radio" value="3" required />
+                                                <span for=""></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="input-field col s1">
+                                        <div class="h-form-label" style="justify-content: center;">
+                                            <label>
+                                                <input class="with-gap" name="q44" type="radio" value="2" required />
+                                                <span for=""></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="input-field col s1">
+                                        <div class="h-form-label" style="justify-content: center;">
+                                            <label>
+                                                <input class="with-gap" name="q44" type="radio" value="1" required />
+                                                <span for=""></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- 4.5 -->
+                                <div class="row">
+                                    <div class="col s1">
+                                        <div class="h-form-label m-t-10">
+                                        </div>
+                                    </div>
+                                    <div class="col s1">
+                                        <div class="h-form-label m-t-10">
+                                            <label for="">4.5</label>
+                                        </div>
+                                    </div>
+                                    <div class="col s4">
+                                        <div class="h-form-label m-t-10">
+                                            <label id=""> ช่องทางการรับข่าวสาร (ผ่าน Application) เช่น เอกสารเพิ่มเติม, แบบสอบถาม</label>
+                                        </div>
+                                    </div>
+                                    <div class="input-field col s1">
+                                        <div class="h-form-label" style="justify-content: center;">
+                                            <label>
+                                                <input class="with-gap" name="q45" type="radio" value="5" required />
+                                                <span for=""></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="input-field col s1">
+                                        <div class="h-form-label" style="justify-content: center;">
+                                            <label>
+                                                <input class="with-gap" name="q45" type="radio" value="4" required />
+                                                <span for=""></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="input-field col s1">
+                                        <div class="h-form-label" style="justify-content: center;">
+                                            <label>
+                                                <input class="with-gap" name="q45" type="radio" value="3" required />
+                                                <span for=""></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="input-field col s1">
+                                        <div class="h-form-label" style="justify-content: center;">
+                                            <label>
+                                                <input class="with-gap" name="q45" type="radio" value="2" required />
+                                                <span for=""></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="input-field col s1">
+                                        <div class="h-form-label" style="justify-content: center;">
+                                            <label>
+                                                <input class="with-gap" name="q45" type="radio" value="1" required />
+                                                <span for=""></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
                                 <!--5-->
                                 <div class="divider"></div><br>
                                 <div class="row">
@@ -1089,7 +1207,7 @@
                                         </div>
                                     </div>
                                     <div class="input-field col s8">
-                                                                                   
+
                                         <textarea name="q8" rows="10" cols="50" required></textarea>
                                     </div>
                                     <div class="col s2">
@@ -1117,7 +1235,7 @@
                                         </div>
                                     </div>
                                     <div class="input-field col s8">
-                                                                                    
+
                                         <textarea name="q9" rows="10" cols="50" required></textarea>
                                     </div>
                                     <div class="col s2">
@@ -1127,7 +1245,7 @@
                                     </div>
                                 </div>
 
-                                
+
                                 <div class="card-content">
                                     <div class="form-action">
                                         <button class="btn cyan waves-effect waves-light" type="submit">ส่งแบบสอบถาม</button>

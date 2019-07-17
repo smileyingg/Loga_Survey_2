@@ -16,6 +16,8 @@ $q34 = $_POST['q34'];
 $q41 = $_POST['q41'];
 $q42 = $_POST['q42'];
 $q43 = $_POST['q43'];
+$q44 = $_POST['q44'];
+$q45 = $_POST['q45'];
 $q5 = $_POST['q5'];
 $q6 = $_POST['q6'];
 $q8 = $_POST['q8'];
@@ -63,7 +65,7 @@ $device = detectDevice();
 $agent = $_SERVER["HTTP_USER_AGENT"];
 
 
-$sql = "INSERT INTO survey_form (userTime, q11, q12, q21, q22, q23, q24, q31, q32, q33, q34, q41, q42, q43, q5, q6, q8, q9, IP, device, agent) VALUES ('$dNow', '$q11', '$q12', '$q21', '$q22', '$q23', '$q24', '$q31', '$q32', '$q33', '$q34', '$q41', '$q42', '$q43', '$q5', '$q6', '$q8', '$q9', '$IP', '$device', '$agent')";
+$sql = "INSERT INTO survey_form (userTime, q11, q12, q21, q22, q23, q24, q31, q32, q33, q34, q41, q42, q43,q44,q45, q5, q6, q8, q9, IP, device, agent) VALUES ('$dNow', '$q11', '$q12', '$q21', '$q22', '$q23', '$q24', '$q31', '$q32', '$q33', '$q34', '$q41', '$q42', '$q43', '$q44', '$q45', '$q5', '$q6', '$q8', '$q9', '$IP', '$device', '$agent')";
 $result = mysqli_query($mysqli, $sql);
 
 foreach ($q7 as $value) {
